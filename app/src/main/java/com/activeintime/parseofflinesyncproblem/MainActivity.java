@@ -28,7 +28,7 @@ public class MainActivity extends ActionBarActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
     // this is the column we're going to try and update/ break
     private static final String COL_NAME = "col1";
-    private static final boolean  ENABLE_LOCAL_DATA_STORE  = false;
+    private static final boolean  ENABLE_LOCAL_DATA_STORE  = true;
     private Thing mThing;
 
     @Override
